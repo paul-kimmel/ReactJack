@@ -1,0 +1,25 @@
+﻿.footer{
+  /*border: 2px solid red;*/
+  display: flex;
+  background-color: black;
+  color: white;
+
+}
+
+
+.footer div:not(:last-child){
+  width: 15%;
+  border: 1px outset silver;
+  padding-left: 4px;
+}
+
+  .footer div:last-child {
+    width: 40%;
+    border: 1px outset silver;
+    padding-left: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+

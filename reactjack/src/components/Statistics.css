@@ -1,0 +1,26 @@
+﻿.statistics{
+  position: absolute;
+  border: 1px solid black;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+  max-width: 250px;
+  width:250px;
+  box-shadow: rgba(33, 33, 33, 0.7
+  ) 2px 2px ;
+}
+
+.statistics-header {
+  background-image: linear-gradient(silver, black);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  padding: 8px;
+}
+
+.statistics-details {
+  background-color: yellowgreen;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px;
+}

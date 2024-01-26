@@ -1,0 +1,25 @@
+﻿
+
+.dealer-hand {
+  /*border: 3px solid red;*/
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.dealer-hand div{
+  display:flex;
+  
+}
+
+.dealer-hand div > span{
+  top: -40px;
+  position: relative;
+}
+
+.player-name {
+  color: white;
+  font-size: 125%;
+  
+}

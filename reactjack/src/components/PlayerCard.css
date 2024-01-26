@@ -1,0 +1,15 @@
+﻿div.player-card {
+  height: fit-content;
+  width: fit-content;
+  
+}
+
+
+.player-card:last-child, .player-card:hover {
+  overflow: visible;
+}
+
+div.player-card img {
+  height: 150px;
+
+}

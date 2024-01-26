@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+﻿.single-card img{
+  border-radius: 4px;
+}
+
+.single-card{
+  width: 50px;
+  margin-left: -30px;
+}﻿
+
+.dealer-hand {
+  /*border: 3px solid red;*/
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.dealer-hand div{
+  display:flex;
+  
+}
+
+.dealer-hand div > span{
+  top: -20px;
+  position: relative;
+}﻿.footer{
+  /*border: 2px solid red;*/
+  display: flex;
+  background-color: black;
+  color: white;
+
+}
+
+.footer div{
+  width: 20%;
+  border: 1px outset silver;
+  padding-left: 4px;
+}
+﻿div.game-table {
+  background-color: green;
+  height: calc(100vh - 100px);
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+div.game-table > div{
+  height: 50%;
+  /*border: 4px solid black;*/
+
+}
+
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+﻿div.player-card {
+  height: fit-content;
+  width: fit-content;
+  
+}
+
+
+.player-card:last-child, .player-card:hover {
+  overflow: visible;
+}
+
+div.player-card img {
+  height: 150px;
+
+}
+﻿div.player-hand {
+  /*border: 3px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-hand:not(:first-of-type){
+  margin-left: 100px;
+}
+
+div.player-hand > div{
+  display: block;
+}
+
+.player-hand > div > div{
+  display: flex;
+}﻿div.player-hands {
+  /*border: 2px solid red;*/
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.player-hands > span {
+  top: -60px;
+  position: relative;
+}
+
+.player-hands .play-state{
+  margin: -30px;
+  bottom: -30px;
+  color: white;
+  font-weight: 400;
+  position:relative;
+  
+}﻿.statistics{
+  position: absolute;
+  border: 1px solid black;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+  max-width: 250px;
+  width:250px;
+  box-shadow: rgba(33, 33, 33, 0.7
+  ) 2px 2px ;
+}
+
+.statistics-header {
+  background-image: linear-gradient(silver, black);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  padding: 8px;
+}
+
+.statistics-details {
+  background-color: yellowgreen;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px;
+}

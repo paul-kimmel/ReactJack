@@ -1,0 +1,18 @@
+﻿div.player-hand {
+  /*border: 3px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-hand:not(:first-of-type){
+  margin-left: 100px;
+}
+
+div.player-hand > div{
+  display: block;
+}
+
+.player-hand > div > div{
+  display: flex;
+}
